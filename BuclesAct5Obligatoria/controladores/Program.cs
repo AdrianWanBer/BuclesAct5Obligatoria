@@ -6,6 +6,9 @@ namespace BuclesAct5Obligatoria
     {
         public static void Main(string[] args)
         {
+            /* Se creara los objetos de los metodos
+             * tambien se definira la variable string seleccion
+             */
             pedidaDeDatosInterfaz pdd = new pedidaDeDatosImplementacion();
             operativaInterfaz oi = new operativaImplementacion();
             menuContinuarInterfaz mc = new menuContinuarImplementacion();

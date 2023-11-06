@@ -7,8 +7,13 @@ using System.Timers;
 
 namespace BuclesAct5Obligatoria.servicios
 {
+    /// <summary>
+    /// Metodo de la operacion para saber cuantos dias tiene el mes
+    /// <author>06112023 - awb</author>
+    /// </summary>
     internal class operativaImplementacion : operativaInterfaz
     {
+
         public void operativaCalculo(int mes, int anyo)
         {
             switch (mes)
